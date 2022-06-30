@@ -13,13 +13,13 @@ window.addEventListener("DOMContentLoaded", (event) => {
 });
 
 function generateJoke() {
-  const config = {
+  const jokeRes = {
     headers: {
       Accept: "application/json",
     },
   };
 
-  fetch("https://icanhazdadjoke.com", config)
+  fetch("https://icanhazdadjoke.com", jokeRes)
     .then((res) => res.json())
     .then((data) => (jokeEl.innerHTML = data.joke))
     .catch((err) => (jokeEl.textContent = "Failed to Fetch data!"));

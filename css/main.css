@@ -20,6 +20,7 @@ body {
 .container h3 {
   letter-spacing: 0.3rem;
   margin: 3rem 0;
+  font-size: 1.5rem;
 }
 
 .container button {
@@ -38,6 +39,10 @@ body {
 
 .hidden {
   display: none;
+}
+
+.joke-container {
+  font-size: 1.8rem;
 }
 
 :root {
