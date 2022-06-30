@@ -31,6 +31,15 @@ body {
   margin-top: 2rem;
 }
 
+.get-joke:active {
+  transform: scale(0.98);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1), 0 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.hidden {
+  display: none;
+}
+
 :root {
   --bg-color: rgb(215,211,228);
   --darkPurple-color: rgb(138, 112, 214);
