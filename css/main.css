@@ -1,0 +1,59 @@
+:root {
+  --bg-color: rgb(215,211,228);
+  --darkPurple-color: rgb(138, 112, 214);
+  --lightPurple-color: rgb(233, 227, 254);
+  --darkBlue-color: rgb(86, 155, 228);
+  --lightBlue-color: rgb(229, 243, 254);
+  --black-color: rgb(0, 0, 0);
+  --white-color: rgb(255, 255, 255);
+  --lightPink-color: rgb(255, 227, 253);
+  --darkPink-color: rgb(222, 146, 213);
+  --lightOrange-color: rgb(255, 240, 225);
+  --darkOrange-color: rgb(252, 171, 94);
+  --light-Gray-color:rgb(222, 222, 222);
+  --dark-Gray-color:rgb(121, 121, 121);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: 'Josefin Sans', sans-serif;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: var(--bg-color);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+i {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
